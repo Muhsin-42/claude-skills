@@ -8,14 +8,18 @@ Claude Code skills, packaged as a plugin marketplace.
 
 ## Install
 
-This repo is private, so you need read access to it and a working git login for
-GitHub (for example `gh auth login`).
-
-In Claude Code:
+In Claude Code, type these as commands (not as a chat message):
 
 ```
 /plugin marketplace add Muhsin-42/claude-skills
 /plugin install pr-review@muhsin-skills
+```
+
+Or from a terminal:
+
+```bash
+claude plugin marketplace add Muhsin-42/claude-skills
+claude plugin install pr-review@muhsin-skills
 ```
 
 Updates: `/plugin marketplace update muhsin-skills`.
