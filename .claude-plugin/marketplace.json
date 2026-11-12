@@ -1,0 +1,14 @@
+{
+  "name": "muhsin-skills",
+  "description": "Muhsin's Claude Code skills.",
+  "owner": {
+    "name": "Muhsin"
+  },
+  "plugins": [
+    {
+      "name": "pr-review",
+      "source": "./plugins/pr-review",
+      "description": "Senior-dev PR review: plain summary, verified bugs as JSON with criticality, a merge verdict, and --comment to draft a pending GitHub review."
+    }
+  ]
+}
